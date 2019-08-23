@@ -1,24 +1,32 @@
 body {
   padding: 10px 50px 50px;
   font: 18px "Garamond", serif;
+  font-weight:bold;
   color: violet;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWUaasSHhJsFnmJs15nvg5TXmk69AxtNc9_mlrRghFZ7xJ1KR");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: fixed;
+  background-attachment: local;
   background-position: center;
-  background-size:1500px 700px;
-  
-}
+  background-size: 1400px 700px;
+      }
 
+  h1 {
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+    text-shadow: 4px 2px purple;
+  }
 a {
   color:violet;
   text-decoration: none;
   font-weight: bold;
   transition: 0.4s;
+
 }
 
 a:hover {
-  color: black;
+  color: purple;
 }
 
 a.button,
@@ -30,13 +38,19 @@ input[type=submit] {
   font-size: 14px;
   border-radius: 2px;
   cursor: pointer;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  border:solid;
+  border-color: violet;
 }
 
 form a.button,
 input[type=submit] {
   margin-left: 140px;
   transition: 0.4s;
-}
+  font-weight: bolder;
+  transform-style: preserve-3d;
+ }
 
 input[type=submit] {
   border: 0;
@@ -44,7 +58,7 @@ input[type=submit] {
 
 a.button:hover,
 input[type=submit]:hover {
-  background-color: red;
+  background-color:purple;
 }
 
 p {
@@ -67,6 +81,8 @@ th {
   border-bottom: 2px solid #D8B493;
   text-align: left;
   padding: 5px 20px 5px 10px;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 tr {
@@ -82,10 +98,13 @@ td {
 }
 
 label {
-  font-weight: bold;
+  font-weight:900;
   min-width: 130px;
   display: inline-block;
   transition: 0.4s;
+  text-shadow: 4px 2px purple;
+  font-size: 25px;
+  word-spacing: 60px;
 }
 
 input {
@@ -95,6 +114,7 @@ input {
   border-radius: 2px;
   border-color: #E7E7E7;
   transition: 0.4s;
+  font-weight:bolder;
 }
 
 input[type=text] {

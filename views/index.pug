@@ -4,17 +4,17 @@ block title
     title Books
 
 block content
-    h1 Books
+    h1 Winnie's Library Books
     form(action="/books", method="post")
         a.button.nav(href="/books/new") Create New Book
         label.nav search
             input(type="search" name="searchKeyWord")
             select.nav(name="column")
-                option(value="title") Title
+                option(value="title") Title 
                 option(value="author") Author
                 option(value="genre") Genre
                 option(value="year") Year
-        input.button.nav(type="submit" value="Search")
+            input.button.nav(type="submit" value="Search")
     table
         teath
             tr
@@ -29,6 +29,7 @@ block content
                 tr
                     td
                         a(href= `/books/${book.id}`)= book.title
+                        
                     td= book.author
                     td= book.genre
                     td= book.year
