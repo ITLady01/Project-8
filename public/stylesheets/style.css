@@ -48,7 +48,8 @@ input[type=submit] {
 
 form a.button,
 input[type=submit] {
-  margin-left: 140px;
+  margin-left: 40px;
+  margin-bottom:40px;
   transition: 0.4s;
   font-weight: bolder;
   transform-style: preserve-3d;
@@ -56,6 +57,7 @@ input[type=submit] {
 
 input[type=submit] {
   border: 0;
+  margin-right:40px;
 }
 
 a.button:hover,
