@@ -120,12 +120,6 @@ router.post("/books/:id", (req, res, next) => {
   }, {
       where: { id: req.params.id }
   
-    // .then(book => {
-    //   if(book) {
-    //     return book.update(req.body);
-    //   } else {
-    //     res.send(404);
-    //   }
     }).then(() => {
       res.redirect("/books/page/1");
     })
