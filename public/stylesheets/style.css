@@ -2,10 +2,16 @@ body {
   padding: 10px 50px 50px;
   font: 18px "Garamond", serif;
   color: violet;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWUaasSHhJsFnmJs15nvg5TXmk69AxtNc9_mlrRghFZ7xJ1KR");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:1500px 700px;
+  
 }
 
 a {
-  color: purple;
+  color:violet;
   text-decoration: none;
   font-weight: bold;
   transition: 0.4s;
